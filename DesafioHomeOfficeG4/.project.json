@@ -1,0 +1,16 @@
+{
+    "dataBinding": {
+        "/webapp/view/Questao01.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/Questao02.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/Questao03.view.xml": {
+            "entitySet": ""
+        }, 
+        "/webapp/view/TelaLogin.view.xml": {
+            "entitySet": ""
+        } 
+    }
+}

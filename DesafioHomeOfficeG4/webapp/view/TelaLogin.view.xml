@@ -1,0 +1,32 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.desafioHomeOffice.controller.TelaLogin" xmlns="sap.m" xmlns:layout="sap.ui.commons.layout">
+    <Page showHeader="false" title="Page Title" showFooter="true" showNavButton="false" enableScrolling="false">
+        <content>
+            <layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+                <layout:positions>
+                    <layout:PositionContainer left="0px" top="0px">
+                        <layout:control>
+                            <VBox alignItems="Center" direction="Column" fitContainer="false" width="319.5px" height="568.984375px" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+                                <items>
+                                    <Image src="/webapp/resources/WhatsApp_Image_2020-01-03_at_10.24.54__1_.jpeg" height="154px" width="318px" visible="true" densityAware="false"/>
+                                    <HBox alignItems="Center" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false" class="sapUiSmallMargin">
+                                        <items>
+                                            <Text text="Usuário:" width="65px" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                            <Input type="Text" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0" class="sapUiTinyMargin"/>
+                                        </items>
+                                        <layoutData/>
+                                    </HBox>
+                                    <Button text="Login" type="Default" iconFirst="true" width="95.98958587646484px" enabled="true" visible="true" iconDensityAware="false" class="sapUiSmallMargin" press="_onButtonPress"/>
+                                </items>
+                                <layoutData/>
+                            </VBox>
+                        </layout:control>
+                    </layout:PositionContainer>
+                </layout:positions>
+            </layout:AbsoluteLayout>
+        </content>
+        <footer/>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

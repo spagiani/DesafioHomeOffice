@@ -1,0 +1,124 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.desafioHomeOffice.controller.Questao02" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.f" xmlns:layout="sap.ui.commons.layout">
+    <Page showHeader="false" title="Avaliação de Produtividade" showFooter="true" showNavButton="false" enableScrolling="false">
+        <content>
+            <layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+                <layout:positions>
+                    <layout:PositionContainer left="0px" top="189px">
+                        <layout:control>
+                            <HBox alignItems="Center" direction="Row" fitContainer="false" width="320px" height="75.98958587646484px" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+                                <items>
+                                    <core:Icon src="sap-icon://travel-request" size="48px" height="48px" width="48px" visible="true" class="sapUiTinyMargin"/>
+                                    <Title text="Como você avalia seu prazo de entrega dos trabalhos realizados como Home Office?" titleStyle="H4" width="230.00001525878906px" textAlign="Center" visible="true" wrapping="true"/>
+                                </items>
+                                <layoutData/>
+                            </HBox>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="0px" top="68px">
+                        <layout:control>
+                            <HBox alignItems="Center" direction="Row" fitContainer="false" width="319.01041662693024px" height="90.57292175292969px" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                                <items>
+                                    <f:Avatar src="" initials="" displayShape="Circle" displaySize="M" imageFitType="Cover" class="sapUiSmallMargin"/>
+                                    <Title text="Olá, ...." titleStyle="H1" width="201.9965362548828px" textAlign="Center" visible="true" wrapping="true"/>
+                                </items>
+                                <layoutData/>
+                            </HBox>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="0px" top="0px">
+                        <layout:control>
+                            <HBox alignItems="Stretch" direction="Row" fitContainer="false" width="319.01041662693024px" height="54.35000000px" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                                <items>
+                                    <Image src="/webapp/resources/L4e.jpg" height="54.34027862548828px" width="65.98958587646484px" visible="true" densityAware="false"/>
+                                    <ToolbarSpacer width="171.6840362548828px"/>
+                                    <OverflowToolbarButton text="Action" type="Transparent" icon="sap-icon://search" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                                    <OverflowToolbarButton text="Action" type="Transparent" icon="sap-icon://menu2" iconFirst="true" width="33.975677490234375px" enabled="true" visible="true" iconDensityAware="false"/>
+                                </items>
+                                <layoutData/>
+                            </HBox>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="30px" top="279px">
+                        <layout:control>
+                            <VBox alignItems="Start" direction="Column" fitContainer="true" width="auto" renderType="Div" visible="true" height="auto">
+                                <items>
+                                    <HBox alignItems="Start" direction="Row" fitContainer="true" width="240px" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false" class="sapUiSmallMargin">
+                                        <items>
+                                            <HBox alignItems="Stretch" direction="Row" fitContainer="false" width="278.00000000px" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                                                <items>
+                                                    <VBox alignItems="Center" direction="Column" fitContainer="false" width="80px" height="85.00000762939453px" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+                                                        <items>
+                                                            <ToggleButton pressed="false" text="" icon="/webapp/resources/very-happy.png" iconFirst="true" width="48px" enabled="true" visible="true"/>
+                                                            <Text text="Radiante" width="75.98958587646484px" maxLines="1" wrapping="false" textAlign="Center" textDirection="Inherit" visible="true"/>
+                                                        </items>
+                                                        <layoutData/>
+                                                    </VBox>
+                                                    <VBox alignItems="Center" direction="Column" fitContainer="false" width="80px" height="85.00000762939453px" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+                                                        <items>
+                                                            <ToggleButton pressed="false" text="" icon="/webapp/resources/happy.png" iconFirst="true" width="48px" enabled="true" visible="true"/>
+                                                            <Text text="Muito Feliz" width="75.98958587646484px" maxLines="1" wrapping="false" textAlign="Center" textDirection="Inherit" visible="true"/>
+                                                        </items>
+                                                        <layoutData/>
+                                                    </VBox>
+                                                    <VBox alignItems="Center" direction="Column" fitContainer="false" width="80px" height="85.00000762939453px" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+                                                        <items>
+                                                            <ToggleButton pressed="false" text="" icon="/webapp/resources/neutral.png" iconFirst="true" width="48px" enabled="true" visible="true"/>
+                                                            <Text text="Feliz" width="75.98958587646484px" maxLines="1" wrapping="false" textAlign="Center" textDirection="Inherit" visible="true"/>
+                                                        </items>
+                                                        <layoutData/>
+                                                    </VBox>
+                                                </items>
+                                                <layoutData/>
+                                            </HBox>
+                                        </items>
+                                        <layoutData/>
+                                    </HBox>
+                                    <HBox alignItems="Stretch" direction="Row" fitContainer="false" width="240px" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false" class="sapUiSmallMargin">
+                                        <items>
+                                            <VBox alignItems="Center" direction="Column" fitContainer="false" width="80px" height="85.00000762939453px" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+                                                <items>
+                                                    <ToggleButton pressed="false" text="" icon="/webapp/resources/sad.png" iconFirst="true" width="48px" enabled="true" visible="true"/>
+                                                    <Text text="Inseguro" width="75.98958587646484px" maxLines="1" wrapping="false" textAlign="Center" textDirection="Inherit" visible="true"/>
+                                                </items>
+                                                <layoutData/>
+                                            </VBox>
+                                            <VBox alignItems="Center" direction="Column" fitContainer="false" width="80px" height="85.00000762939453px" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+                                                <items>
+                                                    <ToggleButton pressed="false" text="" icon="/webapp/resources/very-sad.png" iconFirst="true" width="48px" enabled="true" visible="true"/>
+                                                    <Text text="Triste" width="75.98958587646484px" maxLines="1" wrapping="false" textAlign="Center" textDirection="Inherit" visible="true"/>
+                                                </items>
+                                                <layoutData/>
+                                            </VBox>
+                                            <VBox alignItems="Center" direction="Column" fitContainer="false" width="80px" height="85.00000762939453px" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+                                                <items>
+                                                    <ToggleButton pressed="false" text="" icon="/webapp/resources/angry.png" iconFirst="true" width="48px" enabled="true" visible="true"/>
+                                                    <Text text="Raivoso" width="75.98958587646484px" maxLines="1" wrapping="false" textAlign="Center" textDirection="Inherit" visible="true"/>
+                                                </items>
+                                                <layoutData/>
+                                            </VBox>
+                                        </items>
+                                        <layoutData/>
+                                    </HBox>
+                                </items>
+                                <layoutData/>
+                            </VBox>
+                        </layout:control>
+                    </layout:PositionContainer>
+                </layout:positions>
+            </layout:AbsoluteLayout>
+        </content>
+        <footer>
+            <OverflowToolbar width="320px" height="43.99305725097656px" design="Transparent" enabled="true" visible="true">
+                <content>
+                    <ToolbarSpacer width="215.98959350585938px"/>
+                    <Button text="Próximo" type="Emphasized" iconFirst="true" width="83.99305725097656px" enabled="true" visible="true" iconDensityAware="false"/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent>
+            <Button text="" type="Default" icon="sap-icon://menu2" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+        </headerContent>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>
